@@ -2,8 +2,8 @@
 
 we used javascript to buid this thing, we used React js framework along with that we used tailwind for styling
 
-# demo :
-- ![alt text](arrow.png)
+<!-- # demo :
+- ![alt text](arrow.png) -->
 
 
 # How to set the project  :
