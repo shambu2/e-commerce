@@ -4,6 +4,10 @@ we used javascript to buid this thing, we used React js framework along with tha
 
 <!-- # demo :
 - ![alt text](arrow.png) -->
+# demo :
+- ![Demo Image](photo(1).png)
+- ![Demo Image](photo(kids).png)
+- ![Demo Image](photo(men).png)
 
 
 # How to set the project  :
