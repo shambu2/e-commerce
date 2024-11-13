@@ -3,6 +3,8 @@
 import { useParams } from "react-router-dom"
 import all_product from "../assets/all_product"
 import Breadcrum from "../components/Breadcrum";
+import ProductDisplay from "../components/ProductDisplay";
+import Description from "../components/Description";
 // import ProductDisplay from "../components/ProductDisplay";
 
 const Product = () => {
@@ -11,7 +13,8 @@ const Product = () => {
   return (
     <div>
       <Breadcrum product={product}/>
-      
+      <ProductDisplay product={product}/>
+      <Description/>
     </div>
   )
 }
