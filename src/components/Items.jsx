@@ -1,9 +1,12 @@
-import React from 'react'
+// import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Items = (item) => {
   return (
     <div className='w-[350px] hover:scale-105'>
+        <Link to={`/product/${item.id}`}>
         <img src={item.image} alt="" />
+        </Link>
         <div>
             {item.name}
         </div>
