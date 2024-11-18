@@ -5,7 +5,7 @@ const Items = (item) => {
   return (
     <div className='w-[350px] hover:scale-105'>
         <Link to={`/product/${item.id}`}>
-        <img src={item.image} alt="" />
+        <img src={item.image} alt="" onClick={window.scrollTo(0,0)}/>
         </Link>
         <div>
             {item.name}
